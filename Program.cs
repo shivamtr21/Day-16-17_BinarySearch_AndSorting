@@ -6,8 +6,9 @@
         {
             Console.WriteLine("Welcome to Data Structures and Algorithms Practice Problem");
             Console.WriteLine("*********************");
-            //ANAGRAM
-            Anagram.CheckAnagram();
+
+            PrimePalindromSearch obj = new PrimePalindromSearch();
+            obj.prime();
         }
     }
 }
